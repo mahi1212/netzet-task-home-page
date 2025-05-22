@@ -28,7 +28,7 @@ const Navbar = () => {
         />
 
       {/* links */}
-      <div className="hidden sm:flex justify-center items-center font-figtree gap-8 text-[18px]">
+      <div className="hidden sm:flex justify-center items-center font-figtree gap-8 text-[18px] md:me-20">
         <Link href="/" className="text-[#A9A9A9]">
           About us
         </Link>

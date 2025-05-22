@@ -4,7 +4,7 @@ import TermsCondition from "./terms-condition";
 
 const HeroTextSection: React.FC = () => {
   return (
-    <div className="flex flex-col items-start justify-start h-full w-full md:-mt-30">
+    <div className="flex flex-col items-start justify-start h-full w-full md:mt-[60px]">
       {/* headlines */}
       <div className="flex flex-col font-urbanist text-[25px] md:text-[35px] font-[800] md:font-[700] text-center md:text-left
        leading-[40px]">
