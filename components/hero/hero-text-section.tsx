@@ -12,7 +12,7 @@ const HeroTextSection: React.FC = () => {
           Want to Turn Social Media Into a Profitable Career?
         </h1>
         <h2 
-          className="text-[#00E7F9] shadow-lg lg:w-[45%]"
+          className="text-[#00E7F9] lg:w-[45%]"
           style={{
             filter: "drop-shadow(0px 4px 4px #FC004E)",
           }}
