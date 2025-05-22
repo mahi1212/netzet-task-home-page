@@ -8,7 +8,8 @@ const HeroSection = () => {
       <Image
         src={HeroImage}
         alt="Hero Image"
-       
+        placeholder="blur"
+        quality={100}
         className="lg:w-[65%] w-full h-full lg:max-h-[900px] lg:-mt-8 
         order-first lg:order-last
         lg:absolute lg:right-0 lg:top-0"
