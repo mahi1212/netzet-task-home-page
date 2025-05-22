@@ -4,11 +4,14 @@ import Image from "next/image";
 
 const HeroSection = () => {
   return (
-    <div className="flex justify-center items-center gap-4 flex-col md:flex-row p-4 sm:p-0">
+    <div className="flex justify-center items-start gap-4 flex-col lg:flex-row p-4 sm:p-0 relative min-h-[80vh] ">
       <Image
         src={HeroImage}
         alt="Hero Image"
-        className="w-full h-full -mt-8 order-first md:order-last"
+       
+        className="lg:w-[65%] w-full h-full lg:max-h-[900px] lg:-mt-8 
+        order-first lg:order-last
+        lg:absolute lg:right-0 lg:top-0"
       />
 
       <HeroTextSection />

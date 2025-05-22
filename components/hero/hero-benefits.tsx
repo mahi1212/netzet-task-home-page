@@ -8,11 +8,11 @@ const HeroBenefits: React.FC = () => {
   ];
 
   return (
-    <div className="flex flex-col items-center md:items-start justify-center gap-2 mt-6">
+    <div className="flex flex-col items-center md:items-start justify-center gap-2 mt-6 ">
       {reason_of_joining?.map((reason, index) => (
         <div
           key={index}
-          className="text-[18px] font-figtree flex items-center justify-center"
+          className="text-[18px] font-figtree flex items-center justify-center max-w-[90%]"
         >
           <p>✨ </p>
           <p className="ms-2">{reason}</p>
